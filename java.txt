@@ -1,0 +1,13 @@
+const changeTheme = () => {
+    let body = document.getElementsByTagName("body")[0];
+    if (body.id == "light-mode") {
+        document.getElementsByClassName("circle")[0].style.left = "7%";
+        body.id = "dark-mode";
+        document.getElementById("themedd").innerHTML = "Light Mode";
+    }
+    else {
+        document.getElementsByClassName("circle")[0].style.left = "52%";
+        body.id = "light-mode";
+        document.getElementById("themedd").innerHTML = "Dark Mode";
+    }
+};

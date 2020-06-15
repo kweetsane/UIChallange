@@ -1,0 +1,220 @@
+
+#light-mode {
+    background-color:hsl(0, 0, 100%);
+}
+#light-mode .card {
+    background-color:hsl(227, 47%, 96%);
+}
+#light-mode #theme-button {
+    background-color:hsl(230, 22%, 74%);
+}
+#light-mode .circle {
+    background-color: hsl(0, 0%, 100%);
+}
+
+#theme-button {
+    display:inline-block;
+    right:0%;
+    bottom:35%;
+    width:57px;
+    height:26px;
+    border-top:none;
+    border-radius:14px;
+    padding-top:2.8px;
+
+	
+	
+	
+}
+#theme-button, .circle {
+    position:absolute;
+
+	
+}
+.circle {
+    width:23px;
+    height:23px;
+    border-radius:50%;
+    left:7%;
+	  color:black;
+}
+#theme-button, .circle {
+    position:absolute;
+	
+}
+#change-theme {
+    padding-top:0px;
+    padding-bottom:0px;
+	
+}
+
+
+header, #change-theme, .card {
+    position:relative;
+}
+#total .card {
+    height:190px;
+    border-radius:5px 5px 0 0;
+    text-align:center;
+    padding-top:20px;
+}
+body {
+    padding-left:5vw;
+    padding-right:5vw;
+
+background-color  : black;
+}
+
+
+h{
+	
+	color : white;
+	padding :17px;
+}
+h2{
+	
+	color:white;
+	padding :17px;
+}
+h4{
+	color : white;
+}
+#container{
+	padding:60px;
+}
+h1
+{
+	
+	float : right ;
+	color : white;
+	font-size : 20px;
+	
+}
+h8{
+	
+	padding-left:10px;
+	font-size: 20px;
+	color:white;
+}
+h9{
+	
+	font-size:12;
+	color:white;
+	
+}
+.grid-container{
+	display : grid;
+	grid-column-gap: 10px;
+	grid-template-columns: auto auto auto auto;
+		grid-template-columns: auto auto auto auto;
+		
+	background-color: black;
+
+	
+	align-content: space-between;
+
+	
+}
+.grid-item {
+	background-color: #131940;
+	border : 5px solid rgba(0,0,0,08);
+	padding :50px;
+	font-size:10px;
+	
+	
+	
+
+}
+p{
+	
+	color: white;
+	font-size:40px;
+	padding :17px;
+}
+p1{
+	font-size:43px;
+	color: white;
+}
+
+p2{
+	
+	color: green;
+	font-size:10px;
+}
+p3{
+	color: red;
+	
+}
+h6{
+	text-align: left;
+	color : white;
+	font-size:15px;
+	padding-bottom:30px;
+
+
+	
+}
+h7
+{
+	text-align:left;
+	color: green ;
+	
+}
+
+
+.grid-container1{
+	display : grid;
+	grid-column-gap: 10px;
+	grid-template-columns: auto auto auto auto;
+		
+	background-color: black;
+	
+	
+}
+
+.grid-item1 {
+	background-color: #131940;
+	border : 5px solid rgba(0,0,0,08);
+	padding :50px;
+	font-size:10px;
+	text-align: center ;
+	
+	
+	
+
+}
+
+
+
+
+qoute {
+    color:hsl(163, 72%, 41%);
+    font-weight:bolder;
+	font-size:15px;
+	padding-top:20px;
+	
+}
+#total .card strong {
+    margin-top:10px;
+    font-size:4em;
+}
+#overviews .card strong {
+    left:10%;
+    bottom:5%;
+    font-size:9.5em;
+}
+#overviews .card qoute {
+    right:10%;
+    bottom:15%;
+}
+strong{
+	
+	font-size:40px;
+	color:white;
+	padding-top:20px;
+}
+
+
+
+
+
